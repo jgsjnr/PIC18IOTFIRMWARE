@@ -1,0 +1,10 @@
+main
+	__CC2DW
+	board_Init
+	interruptConfig
+	UART1_Init
+	UART1_Write_Text
+		UART1_Write
+	UART1_Data_Ready
+	UART1_Read
+interrupt
